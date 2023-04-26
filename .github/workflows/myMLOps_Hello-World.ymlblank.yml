@@ -51,4 +51,4 @@ jobs:					# A workflow run is made up of one or more jobs,
       run: python linear-model.py
       
     - name: list directory	
-      run: ls -la
+      run: ls -la linear-model
