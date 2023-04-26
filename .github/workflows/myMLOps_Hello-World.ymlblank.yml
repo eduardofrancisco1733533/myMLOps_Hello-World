@@ -48,3 +48,7 @@ jobs:					# A workflow run is made up of one or more jobs,
       
     - name: show OS version
       run: cat /etc/os-release
+      
+    - name: run model 
+      run: python linear-model.py
+
