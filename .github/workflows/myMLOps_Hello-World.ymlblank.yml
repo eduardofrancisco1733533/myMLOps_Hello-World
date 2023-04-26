@@ -42,3 +42,9 @@ jobs:					# A workflow run is made up of one or more jobs,
   # operating system's shell.
     - name: list directory	
       run: ls -la
+      
+    - name: show README
+      run: cat README.md
+      
+    - name: show OS version
+      run: cat /etc/os-release
